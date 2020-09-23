@@ -5,10 +5,10 @@ env:
 on:
   pull_request:
     branches:
-      - v2
+      - master
   push:
     branches:
-      - v2
+      - master
 
 jobs:
   test:
